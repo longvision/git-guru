@@ -1,3 +1,34 @@
+# Final Project CS 50
+
+## Git Guru 
+## This application features:
+
+#### This project lists any existing github user's repositories and allows to check the commit list of their repositories.
+
+The project was created using react.js, through the create-react-app command, which give me a boiler plate to start coding.
+
+After that I've added few npm libraries to handle the global state management (@rematch/core, react-redux, redux...), api callers like (axios), styled-components (npm library) to style my components in a custom fashion.
+
+I chose React because it is a modern library which is very popular and is increasing in use these days. It also generates all html dinamically using javascript, creating a virtual DOM and comparing only the nodes that should be re rendered.
+
+The main folder structure works in the following manner:
+    - public        (holds the public files to be distributed on the file repository, html, etc...)
+    - src           (holds the source code developed by me)
+    - package.json  (holds all instructions to run the application on developers machine)
+
+To run the application locally, run the following steps:
+    - enter the root directory (CS50-Final).
+    - run on `yarn install`on the terminal.
+    - check if the new folder `node_modules` was generated.
+    - run `yarn start`
+    - enter the following path in the browser: `http://localhost:3000`
+    - Navigate through the app. Enjoy!
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
